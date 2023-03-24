@@ -8,7 +8,7 @@ void bfs(int i, int j, vector<vector<int>>v, vector<vector<bool>>&vis){
     q.push({i,j});
     while(!q.empty()){
         int x=q.front().first;
-        int y=q.front().second;
+        int y=q.front().second ;
         q.pop();
         for(int k=-1;k<=1;k++){
             for(int l=-1;l<=1;l++){
