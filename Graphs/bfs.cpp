@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+
 using namespace std;
 vector<int>bfs(int x, int n, vector<int>v[]){
     vector<int>ans;
